@@ -1,4 +1,6 @@
-React hooks for token gating content via a NFT collection or Farcaster.
+React hooks for token gating content via a NFT collection or Farcaster. Requires an [Alchemy API key](https://docs.alchemy.com/docs/alchemy-quickstart-guide#1key-create-an-alchemy-key) and an existing SIWE implementation.
+
+I recommend using [Wagmi](https://wagmi.sh/examples/sign-in-with-ethereum) or [Privy](https://www.privy.io/) to get an address.
 
 ## Installation
 
