@@ -1,4 +1,4 @@
-React hooks for token gating content via a NFT collection or Farcaster. Requires a [Alchemy API key](https://docs.alchemy.com/docs/alchemy-quickstart-guide#1key-create-an-alchemy-key) for NFT gating, and a [Application bearer token](https://farcasterxyz.notion.site/Merkle-v2-API-Documentation-c19a9494383a4ce0bd28db6d44d99ea8#c8290028e8f64238bdd2db8938b29b9b) for authenticating a farcaster user. In addition, an existing SIWE implementation is needed.
+React hooks for token gating content via a NFT collection or [Farcaster](https://www.farcaster.xyz/). Requires a [Alchemy API key](https://docs.alchemy.com/docs/alchemy-quickstart-guide#1key-create-an-alchemy-key) for NFT gating, and a [Application bearer token](https://farcasterxyz.notion.site/Merkle-v2-API-Documentation-c19a9494383a4ce0bd28db6d44d99ea8#c8290028e8f64238bdd2db8938b29b9b) for authenticating a farcaster user. In addition, an existing SIWE implementation is needed.
 
 I recommend using [Wagmi](https://wagmi.sh/examples/sign-in-with-ethereum) or [Privy](https://www.privy.io/) to get an address.
 
