@@ -1,5 +1,4 @@
 // This script demonstrates access to the NFT API via the Alchemy SDK.
-import { Network, Alchemy } from "alchemy-sdk";
 import { useCallback, useEffect, useState} from "react";
 
 interface ProvideProps {
@@ -14,11 +13,11 @@ export const useFarcasterAuth = ({bearerToken,wallet}:ProvideProps):[boolean,nul
 
     const execute = useCallback(async () => {
         if(!bearerToken) {
-            setError("Need bearer token!")
+            setError(new Error("need bearer token!"))
             return
         }
         if(!wallet) {
-            setError("Need wallet!")
+            setError(new Error("Need a wallet address"))
             return
         }
     const options = {method: 'GET', headers: {accept: 'application/json'}};
