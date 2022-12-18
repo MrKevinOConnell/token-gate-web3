@@ -1,6 +1,6 @@
 {
   "name": "token-gate-web3",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Generic token gate hooks for a nft collection and farcaster",
   "author": "Kevin O'Connell",
   "license": "MIT",
