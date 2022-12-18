@@ -9,8 +9,6 @@ interface ProvideProps {
 export const useFarcasterAuth = ({bearerToken,wallet}:ProvideProps):[boolean,null | Error] => {
     const [isUser, setIsUser] = useState(false);
     const [error, setError] = useState(null as any);
-  
-
     const execute = useCallback(async () => {
         if(!bearerToken) {
             setError(new Error("need bearer token!"))
@@ -20,7 +18,6 @@ export const useFarcasterAuth = ({bearerToken,wallet}:ProvideProps):[boolean,nul
             setError(new Error("Need a wallet address"))
             return
         }
-    const options = {method: 'GET', headers: {accept: 'application/json'}};
 try {
     var myHeaders = new Headers();
     myHeaders.append("Authorization", `Bearer ${bearerToken}`);
