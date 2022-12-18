@@ -1,5 +1,4 @@
 // This script demonstrates access to the NFT API via the Alchemy SDK.
-import { Network, Alchemy } from "alchemy-sdk";
 import { useCallback, useEffect, useState} from "react";
 
 interface ProvideProps {
