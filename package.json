@@ -1,6 +1,6 @@
 {
   "name": "token-gate-web3",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Generic token gate hooks for a nft collection and farcaster",
   "author": "Kevin O'Connell",
   "license": "MIT",
@@ -11,9 +11,6 @@
   "main": "./lib/cjs/index.ts",
   "module": "./lib/esm/index.ts",
   "types": "./lib/esm/index.d.ts",
-  "files": [
-    "/lib"
-  ],
   "scripts": {
     "build": "yarn build:esm && yarn build:cjs",
     "build:esm": "tsc",
