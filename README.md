@@ -20,7 +20,7 @@ yarn add token-gate-web3
 ```tsx
 import logo from './logo.svg';
 import './App.css';
-import {useNFTAuth,useFarcasterAuth} from 'token-gate-web3'
+import{useNFTAuth,useFarcasterAuth } from 'token-gate-web3/lib/esm'
 
 
 function App() {

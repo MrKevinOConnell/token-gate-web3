@@ -17,9 +17,6 @@
     "suppressImplicitAnyIndexErrors": true,
     "allowSyntheticDefaultImports": true
   },
-  "scripts": {
-    "build": "tsc"
- },
   "include": ["src"],
   "exclude": ["node_modules", "lib"]
 }

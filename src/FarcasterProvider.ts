@@ -1,12 +1,13 @@
 // This script demonstrates access to the NFT API via the Alchemy SDK.
 import { useCallback, useEffect, useState} from "react";
 
-interface ProvideProps {
+export interface NFTProps {
     bearerToken: string;
     wallet: string;
 }
+
 // Provider hook that creates auth object and handles state
-export const useFarcasterAuth = ({bearerToken,wallet}:ProvideProps):[boolean,null | Error] => {
+export const useFarcasterAuth = ({bearerToken,wallet}:NFTProps) => {
     const [isUser, setIsUser] = useState(false);
     const [error, setError] = useState(null as any);
     const execute = useCallback(async () => {
@@ -34,7 +35,7 @@ try {
     else {
         setIsUser(false)
     }
-    setError(null as any)
+    setError(null)
 }
   catch(e) {
 setError(e)
