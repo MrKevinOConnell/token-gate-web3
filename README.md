@@ -31,7 +31,7 @@ function App() {
      {holder ? <p>You are a holder</p> :<p>you are not a holder</p>}
      {FCToken ? <p>You are a Farcaster user</p> :<p>you are not a farcaster User</p>}
      {FCError && <p>Farcaster Error:{FCError.message}</p>}
-     {error && <p>Farcaster Error:{error.message}</p>}
+     {error && <p>NFT Error:{error.message}</p>}
     </div>
   );
 }
